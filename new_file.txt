@@ -46,7 +46,7 @@ works,5
 bonnie,2
 lauria,6
 was,32
-miserable,1
+
 she,31
 subsisting,1
 on,28
