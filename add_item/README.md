@@ -8,7 +8,7 @@ Write a python script that contains a `dict_a` dictionary variable holding a set
 Your objective is to add a new key:value pair to th existing dictionary set and store insdie variable `dict_val`.
 Print the result. 
 
-## Testing
+## Testings
 * done
 
 ## Submission
