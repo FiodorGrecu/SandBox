@@ -1,7 +1,7 @@
 
-result = []
-def data(fname, lname):
-    return fname + ' ' + lname
-    result.append(data(fname, lname))
-print(data("Fiodor", "Grecu"))
+
+def concat(fname = "Fiodor", lname = "Grecu"):
+    data = fname + ' ' + lname
+    return data
+result = concat()
 print(result)
