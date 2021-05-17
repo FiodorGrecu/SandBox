@@ -1,4 +1,4 @@
 def result(name):
     return "Hello" + " " + name
 
-print(result('Ion'))
+print(result('Petru'))
