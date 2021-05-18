@@ -1,6 +1,5 @@
-def data(x):
-    if x == True:
-        return "SHUTDOWN"
-    else:
-        return "SHUTDOWN ABORTED"
-print(data(False))
+def data( x = True ):
+     "SHUTDOWN"
+
+     "SHUTDOWN ABORTED"
+print(data("NO"))
