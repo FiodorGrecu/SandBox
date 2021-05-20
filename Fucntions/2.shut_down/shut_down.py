@@ -1,9 +1,10 @@
-def data(x):    
-    x == input(" What would you like to do: ")
-    if x == "True":
-        print("SHUTDOWN")
-    if x == "False":
-        print("SHUTDOWN ABORTED")
-    return data
+def shut_down(x):    
+    if x == True:
+        return "SHUTDOWN"
+    elif x == False:
+        return "SHUTDOWN ABORTED"
+    else: 
+        return '.'
+# result = data(x)
 
-print(data(x=True))
+print(shut_down(True))
