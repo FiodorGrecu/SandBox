@@ -6,4 +6,4 @@ def data(x):
         print("SHUTDOWN ABORTED")
     return data
 
-print(data())
+print(data(x=True))
