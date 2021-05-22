@@ -1,2 +1,2 @@
-def lengh(*args):
+def lengh( *args ):
     
