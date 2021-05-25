@@ -1,5 +1,6 @@
-const x;
-const y;
-x = 6
-y = 7
-console.log(x+y)
+function multiply(num1,num2) {
+    let result = num1 * num2;
+    return result;
+  }
+
+multiply(45 * 2)
