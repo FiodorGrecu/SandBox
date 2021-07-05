@@ -1,6 +1,6 @@
 lst = ['APPLE', 'banana', 'CUCUMBER']
 
-joined = lst.join()
+joined = ", ".join(lst)
 print(joined)
 print(joined)
 print(joined)
