@@ -1,6 +1,7 @@
 lst = ['APPLE', 'banana', 'CUCUMBER']
 
 joined = ", ".join(lst)
-print(joined)
-print(joined)
-print(joined)
+joined_new = "".join(lst)
+print(joined.upper())
+print(joined.lower())
+print(joined_new.lower())
