@@ -6,4 +6,3 @@ def lengh( *args ):
     return result
 print(4,6,7,8,2,4)
 print(4,9,7,8,3,4)
-print(4,8,7,8,7,4,9)
