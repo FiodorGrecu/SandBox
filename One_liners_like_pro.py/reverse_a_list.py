@@ -10,7 +10,7 @@ print(reverse_lst)
 
 reverse_lst_1 = list(reversed(lst))
 
-print(string)
+print(string, string[::-1])
 
 print(reverse_lst_1)
 print(list(reversed(lst_str))) #also an option directly in the print statement one liner
