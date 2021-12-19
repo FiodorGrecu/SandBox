@@ -1,6 +1,13 @@
-let carName = "Volvo"
 
-function theName() {
-    return carName
+
+function name() {
+    console.log('Sebastian');
 }
-console.log(theName);
+// name();
+// name();
+
+const car = function(name){
+    console.log(`good name ${name}`)
+};
+
+car('volovo');
