@@ -11,4 +11,3 @@ print(r'Hello my name is {name}.\nI am {age} years old')
 # u unicode string
 print(u'Hello my name is {name}.\nI am {age} years old')
 print(b'Hello my name is {name}.\nI am {age} years old')
-
