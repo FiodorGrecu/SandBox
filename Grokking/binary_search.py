@@ -32,3 +32,4 @@ print(my_list)
 
 print(binary_search(my_list, 9)) 
 # If we are looking for item 9 we get 5 beacuse is the 6th element in the array items start from 0
+
