@@ -8,7 +8,7 @@ let numbers  = [1, 2, 3, 4, NaN];
 //     console.log('Array contains value');
 // }
 
-// The new Version ES6 of the same scrip 
+// The new Version ES7 of the same scrip 
 
 // if (numbers.includes(3)) 
 if (numbers.includes(NaN)) {
