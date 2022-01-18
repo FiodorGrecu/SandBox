@@ -21,11 +21,7 @@ if (numbers.includes(5)) {
         showAlert();
     });
 }
-let i = 3;
-let j = 4;
-let k = 1;
-for (var i = 0; i <3; i++){
-    k += j;
-    j = j-1;
-    console.log()
+var num = [1,3,5,6]
+for (let i = 0; i <num.length; i++) {
+   console.log(num[i]);
 }
