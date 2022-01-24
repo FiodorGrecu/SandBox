@@ -114,3 +114,5 @@ if __name__ == '__main__':
     dll.insert_at_the_end("figs")
     dll.print_forward()
     dll.print_backward()
+    dll.get_last_node()
+    print(dll.get_last_node())
