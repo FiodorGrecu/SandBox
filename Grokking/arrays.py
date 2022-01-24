@@ -5,3 +5,4 @@ expenses = [
     {'april': 2130},
     {'may': 2190},
 ]
+print(expenses)
