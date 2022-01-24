@@ -1,26 +1,41 @@
 class Node:
-    def __init__(self, data = None, next = None):
+    def __init__(self, data=None, next=None, prev=None):
         self.data = data
         self.next = next
+        self.prev = prev
 
-class LinkedLists:
+class DoublyLinkedLists:
     def __init__(self):
         self.head = None
 
-    def insert_at_the_beggining(self,data):
+    def insert_at_the_beggining(self,data, prev):
         node = Node(data, self.head)
-        self.head = node
+        self.head = node.prev
     
-    def print(self):
+    def print_forward(self):
         if self.head is None:
             print("My list is empty")
-
+            return
+            
         itr = self.head
         llstr = ''
         while itr:
             llstr += str(itr.data) + '-->'
             itr = itr.next
         print(llstr)
+
+    def print_backward(self):
+        if self.head is None:
+            print("Linked list is empty")
+            return
+
+        last_node = self.get_last_node()
+        itr = last_node
+        llstr = ''
+        while itr:
+            llstr += itr.data + '-->'
+            itr = itr.prev
+        print("Link list in reverse: ", llstr)
 
     def insert_at_the_end(self,data):
         if self.head is None:
@@ -36,6 +51,11 @@ class LinkedLists:
         self.head = None
         for data in data_list:
             self.insert_at_the_end(data)
+
+    def get_last_node(self):
+        itr = self.head
+        while itr.next:
+            itr = itr.next
 
     def get_length(self):
         count = 0
@@ -64,7 +84,7 @@ class LinkedLists:
             itr = itr.next
             count += 1
 
-    def insert_at(self, index, data):
+    def insert_at(self, index, data, next, prev):
         if index < 0 or index > self.get_length():
             raise Exception("Invalid index")
 
@@ -77,16 +97,20 @@ class LinkedLists:
         while itr:
             if count == index - 1:
                 node = Node(data, itr.next)
-                itr.next = node
+                itr.next = node.prev
                 break
 
             itr = itr.next
             count += 1
+        
+
+
 
 if __name__ == '__main__':
-    ll = LinkedLists()
-    ll.insert_value(["banana","mango", "apple", "carrots", "oranges"])
-    ll.print()
-    ll.insert_at(1,"figs")
-    ll.insert_at(2,"figs")
-    ll.print()
+    dll = DoublyLinkedLists()
+    dll.insert_value(["banana","mango", "apple", "oranges"])
+    dll.print_forward()
+    dll.print_backward()
+    dll.insert_at_the_end("figs")
+    dll.print_forward()
+    dll.print_backward()
