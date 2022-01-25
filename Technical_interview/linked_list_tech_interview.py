@@ -30,3 +30,5 @@ if __name__ == '__main__':
     ll.insert_at_the_beginning(8)
     ll.insert_at_the_beginning(9)
     ll.print()
+
+    
