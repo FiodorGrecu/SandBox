@@ -24,6 +24,7 @@
 # "A". 
 # Clearly the destination city is "A".
 
+
 from bleach import clean
 
 
@@ -41,3 +42,5 @@ class Solution:
 
 
 
+solut = Solution()
+print(solut.destCity(['a','b'], ['c','d']))
