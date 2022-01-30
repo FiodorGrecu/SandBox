@@ -9,7 +9,7 @@
 # Output: 4
 # Explanation: 9 exists in nums and its index is 4
 
-from pickle import LIST
+# from pickle import LIST
 
 
 class Solution:
@@ -21,3 +21,21 @@ class Solution:
 
 lst = Solution()
 print(lst.search())
+
+
+# The most Optimal Soluution to binary search is:
+
+class Solution:
+    def search(self, nums: LIST[int], target: int) -> int:
+        left, right = 0, len(nums)-1
+        while left <= right:
+            mid = left + (right - left)//2
+            if nums[mid] == target:
+                return mid
+            if target < nums[mid]:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return -1
+
+        # Time complexity : O(logN).
