@@ -16,3 +16,4 @@ def selectionSort(arr):
 
 print(selectionSort([0,3,5,3,14,34]))
 print(selectionSort([13,-1,5,3,14,34]))
+print(selectionSort([13,-2.2,0.3,-0.03,5,3,14,34]))
