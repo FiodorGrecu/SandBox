@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "SandBox_5a2b3a3a"
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Mocha Tests",
@@ -22,9 +29,6 @@
                 "<node_internals>/**"
             ]
         },
-        
-
-
         {
             "type": "node",
             "request": "launch",
