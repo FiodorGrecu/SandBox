@@ -38,7 +38,7 @@ class Solution:
             mid = left + (right - left) // 2
             if nums[mid] == target:
                 return mid
-            if target < nums[mid]:
+            elif target < nums[mid]:
                 right = mid - 1
             else:
                 left = mid + 1
