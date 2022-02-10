@@ -10,7 +10,7 @@
 # Explanation: 9 exists in nums and its index is 4
 
 # from pickle import LIST
-
+# LIST = [-1,0,3,5,9,12]
 
 class Solution:
     def search(self, nums: LIST[int], target: int) -> int:
