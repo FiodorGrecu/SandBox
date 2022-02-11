@@ -14,6 +14,7 @@ class Solution:
 palindrome = Solution()
 
 print(palindrome.longestPalindrome("abccccdd"))
+print(palindrome.longestPalindrome("abccccjdjdjdkriehgdjkdkdd"))
 print(palindrome.longestPalindrome("eye"))
 print(palindrome.longestPalindrome("civicor"))
 
