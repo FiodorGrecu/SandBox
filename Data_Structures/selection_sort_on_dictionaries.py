@@ -14,3 +14,7 @@ elements =[
             {'First Name': 'Ingrid', 'Last Name': 'Maverick'},
             {'First Name': 'Aahana', 'Last Name': 'Arora'}
         ]
+
+for element,value in elements:
+    print(element,)
+print(type(elements))
