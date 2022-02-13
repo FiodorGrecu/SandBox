@@ -15,6 +15,5 @@ elements =[
             {'First Name': 'Aahana', 'Last Name': 'Arora'}
         ]
 
-for element,value in elements:
-    print(element,)
-print(type(elements))
+for element,value in elements.items:
+    print(element + ": " + value)
