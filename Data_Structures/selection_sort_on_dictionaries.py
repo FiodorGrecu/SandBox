@@ -1,3 +1,15 @@
+def multilevel_selection_sort(elements, sort_by_list):
+    for sort_by in sort_by_list[-1::-1]:
+        for x in range(len(elements)):
+            min_index = x
+            for y in range(x, len(elements)):
+                if elements[y][sort_by] < elements[min_index][sort_by]:
+                    min_index = y
+
+            if x != min_index:
+                elements[x], elements[min_index] = elements[min_index],elements[x]
+
+
 elements =[
             {'First Name': 'Raj', 'Last Name': 'Nayyar'},
             {'First Name': 'Suraj', 'Last Name': 'Sharma'},
@@ -15,5 +27,5 @@ elements =[
             {'First Name': 'Aahana', 'Last Name': 'Arora'}
         ]
 
-for element,value in elements.items:
-    print(element + ": " + value)
+print(f'Unsorted', *elements, sep='\n')
+print(multilevel_selection_sort(elements,["First Name", "Last Name"]))
