@@ -27,5 +27,10 @@ elements =[
             {'First Name': 'Aahana', 'Last Name': 'Arora'}
         ]
 
-print(f'Unsorted', *elements, sep='\n')
-print(multilevel_selection_sort(elements,["First Name", "Last Name"]))
+# print(*elements, sep='\n')
+
+print(f'Unsorted Array ', *elements, sep='\n')
+
+multilevel_selection_sort(elements,["First Name", "Last Name"])
+
+print(f'Sorted Array', *elements, sep='\n')
