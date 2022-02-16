@@ -24,7 +24,8 @@ elements =[
             {'First Name': 'Jaya', 'Last Name': 'Seth'},
             {'First Name': 'Armaan', 'Last Name': 'Dadra'},
             {'First Name': 'Ingrid', 'Last Name': 'Maverick'},
-            {'First Name': 'Aahana', 'Last Name': 'Arora'}
+            {'First Name': 'Aahana', 'Last Name': 'Arora'},
+            {'First Name': 'Aabhana', 'Last Name': 'Alora'}
         ]
 
 # print(*elements, sep='\n')
