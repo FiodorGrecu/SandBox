@@ -18,6 +18,7 @@ def sellectionSort(arr):
 
 print(sellectionSort([8,5,8,9,3]))
 print(sellectionSort([-8,5,8,9,3]))
+print(sellectionSort([-8,-22,5,8,9,32]))
 
 # The equivalent built in function in python sorted     
 # arr = [3,6,8,9,8]
