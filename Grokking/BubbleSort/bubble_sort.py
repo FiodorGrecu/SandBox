@@ -17,7 +17,8 @@ def bubble_sort(elements):
 
 if __name__ == '__main__':
 
-    # elements = [5,8,14,2,25,1,28,55,41]
+    elements = [5,8,14,2,25,1,28,55,41]
     elements = [5,6,8]
+    elements = ['Valodea','Natalia','Sebastian', 'Dorel']
     bubble_sort(elements)
     print(elements)
