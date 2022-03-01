@@ -1,4 +1,6 @@
-def bubble_sort_key(elements, key = 'transaction_amount'):
+from pprint import pprint
+# def bubble_sort_key(elements, key = 'transaction_amount'):
+def bubble_sort_key(elements, key = 'name'):
     size = len(elements)
 
     for i in range(size-1):
@@ -6,7 +8,7 @@ def bubble_sort_key(elements, key = 'transaction_amount'):
             if (elements[j])[key] > (elements[j+1])[key]:
                 tmp = elements[j]
                 elements[j] = elements[j+1]
-                elements[j+1] = tmp[j]
+                elements[j+1] = tmp
     # return elements
 
 if __name__ == '__main__':
@@ -18,4 +20,4 @@ if __name__ == '__main__':
         { 'name': 'aamir',  'transaction_amount': 800,  'device': 'iphone-8'},
     ]
     bubble_sort_key(elements)
-    print(elements)
+    pprint(elements)
