@@ -1,6 +1,7 @@
 from pprint import pprint
 # def bubble_sort_key(elements, key = 'transaction_amount'):
-def bubble_sort_key(elements, key = 'name'):
+# def bubble_sort_key(elements, key = 'name'):
+def bubble_sort_key(elements, key = 'device'):
     size = len(elements)
 
     for i in range(size-1):
