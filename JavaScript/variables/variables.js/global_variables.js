@@ -1,4 +1,4 @@
-var lifeInches = 37;
+var lifeInches = 45;
 
 var calcInches = function(startAge, endAge, inchesPerYear) {
     var totalInches = inchesPerYear * (endAge - startAge)
