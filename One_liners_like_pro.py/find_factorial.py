@@ -6,3 +6,4 @@ num4 = 12
 factorial = lambda num : 1 if num <= 1 else num*factorial(num-1)
 
 print('Factorial of', 'num1',':',factorial(num1))
+print('Factorial of', 'num2',':',factorial(num2))
