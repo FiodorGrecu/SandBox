@@ -1,7 +1,7 @@
 num1 = 5
 num2 = 0
 num3 = 10
-num4 = 12
+num4 = 13
 
 factorial = lambda num : 1 if num <= 1 else num*factorial(num-1)
 
