@@ -1,5 +1,5 @@
 def result(name):
-    return "Hello" + " " + name
+    return "Hello" + " " + name 
 
 print(result('Petru'))
 print(result('Dorel'))
