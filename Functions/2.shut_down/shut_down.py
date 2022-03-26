@@ -6,4 +6,5 @@ def shut_down(x):
     else: 
         return '.'
 # result = data(x)
+# result = data(x)
 print(shut_down(True))
