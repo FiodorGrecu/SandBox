@@ -19,6 +19,7 @@ def binary_search(list, item):
 
 # The case of non sorted list    
 my_list = [1, 3, 5, 7, 9, 11, 1] #---> # The item is at the position zero 
+my_list = [1, 3, 7, 9, 11, 5] #---> # The item is at the position zero 
      
 
 my_list.sort()
@@ -30,6 +31,6 @@ print(my_list)
 # print(binary_search(my_list, 4)) 
 # If we are looking for item 4 we get None beacuse is no such an item
 
-print(binary_search(my_list, 9)) 
+print(binary_search(my_list, 5)) 
 # If we are looking for item 9 we get 5 beacuse is the 6th element in the array items start from 0
 
