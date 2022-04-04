@@ -1,8 +1,0 @@
-INSERT INTO Employees
-    ([EmployeeId], [Name], [Locatiion])
-    VALUES
-        ( 1, "Dorel", "Reston"),
-        ( 2, "Natalia", "Reston"),
-        ( 3, "Seb", "Reston"),
-        ( 4, "Vitalie", "Florentia")
-        
