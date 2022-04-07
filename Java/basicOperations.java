@@ -2,9 +2,9 @@ package Java;
 
 public class basicOperations {
     public static void main(String[] args) {
-        int a = 5;
+        // int a = 5;
         int b = 3;
-        int c = 6;
+        // int c = 6;
         // int sum = a * b * c;
         // int div = a / b; // we have a interesting case for division.
 
