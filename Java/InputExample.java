@@ -18,7 +18,7 @@ public class InputExample {
         System.out.println("Please enter you shoe size:");
         shoeSize = scanner.nextFloat();
 
-        System.out.println("Your name is:  " + name);
+        // System.out.println("Your name is:  " + name);
         System.out.println("Your age is:  " + age);
         System.out.println("Your shoeSize is:  " + shoeSize);
 
