@@ -1,6 +1,7 @@
 string1 = 'low'
-print(string1)
+splited_str1 = list(string1)
+print(splited_str1)
 
-for i in len(string1):
-    print(i.strip(i))
+for i in splited_str1:
+    print(i,i[0])
 
