@@ -10,5 +10,7 @@ public class Calcultor {
         int Sum = a+b+c+d+e;
 
         System.out.println(Sum);
+
+        
     }
 }
