@@ -4,7 +4,7 @@
 public class IfStatementDemo {
 
     public static void main(String[] args) {
-        int numOne = 14;
+        int numOne = 16;
         int numTwo = 12;
 
         if (numOne > numTwo){
