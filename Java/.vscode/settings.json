@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "NoorTeck/DayOne/src",
-        "NoorTeck/DayFiveHomework"
+        "NoorTeck/DayFiveHomework",
+        "NoorTeck/DayThree"
     ]
 }
