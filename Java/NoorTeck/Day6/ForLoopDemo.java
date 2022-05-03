@@ -12,3 +12,19 @@ public class ForLoopDemo {
     }
     
 }
+/**
+
+        FOR LOOP SYNTAX
+    
+        for (initialization; boolean_expression; update) {
+
+            // code...
+
+        }
+            initialization      --> declaring the variable and assigning a value; (followed by semi-colon)
+            boolean_expresssion --> true/false; (followed by semi-colon)
+            update              --> increment/decrement
+
+
+
+ */
