@@ -13,10 +13,10 @@ public class BooleanExercise {
 		
 		boolean result = false;
 		
-		if(isWeekday || isVacation) {
-			result = false;
-		}else {
+		if(isWeekday == false|| isVacation == true) {
 			result = true;
+		}else {
+			result = false;
 		}
 		
 		return result;

@@ -1,4 +1,4 @@
-public class DoubleTotal {
+public class SleepStatus {
 
     public static void main(String[] args) {
 
@@ -6,7 +6,8 @@ public class DoubleTotal {
         System.out.println(amISleeping);
 
     }
-
+        //  VERSION 1
+        
     public static boolean sleepIn(boolean isWeekday, boolean isVacation) {
         boolean result = false;
 
