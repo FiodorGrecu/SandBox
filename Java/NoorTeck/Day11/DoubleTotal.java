@@ -35,6 +35,7 @@ public class DoubleTotal {
             int myTotal2 = sumDouble(5, 12);
             System.out.println(myTotal2);
 System.out.println("********");
+
             // Refering version 2
             int myTotal_v1 = sumDouble1(2, 2);
             System.out.println(myTotal_v1);
@@ -42,6 +43,15 @@ System.out.println("********");
             System.out.println(myTotal_v2);
             int myTotal_v3 = sumDouble1(5, 12);
             System.out.println(myTotal_v3);
+System.out.println("********");
+
+              // Refering version 3
+              int myTotal_1 = sumDouble3(2, 2);
+              System.out.println(myTotal_1);
+              int myTotal_2 = sumDouble3(5, 2);
+              System.out.println(myTotal_2);
+              int myTotal_3 = sumDouble1(5, 12);
+              System.out.println(myTotal_3);
         }
             // VERSION 1
         public static int sumDouble (int valueOne, int valueTwo) {
@@ -73,5 +83,17 @@ System.out.println("********");
 
     }
         
+       // VERSION 3
+       public static int sumDouble3 (int valueOne, int valueTwo) {
+        int result = valueOne + valueTwo;
+
+        if ( valueOne == valueTwo){
+            result = result * 2;
+
+        } 
+
+        return result;
+
+    }
 
 }
