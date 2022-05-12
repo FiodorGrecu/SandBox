@@ -29,3 +29,15 @@ public class Person {
     }
 
 }
+/**
+
+
+		INSTANCE VARIABLES
+				--> created when an object is created and is created with "new" keyword 
+				--> belongs to the OBJECTS	
+				--> Each OBJECT will have a copy of it's own
+
+
+
+
+*/
