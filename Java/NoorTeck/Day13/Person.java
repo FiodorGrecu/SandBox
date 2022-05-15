@@ -37,7 +37,4 @@ public class Person {
 				--> belongs to the OBJECTS	
 				--> Each OBJECT will have a copy of it's own
 
-
-
-
 */
