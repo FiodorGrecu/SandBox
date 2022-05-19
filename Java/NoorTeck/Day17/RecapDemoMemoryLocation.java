@@ -8,7 +8,18 @@ public class RecapDemoMemoryLocation {
         if(numOne == numTwo){
             System.out.println("Equal");
         }else{
-            System.out.println("Not Eqaul");
+            System.out.println("Not Eqaul"); // this is going to print
+        }
+
+        System.out.println("***********");
+
+        String s1 = "John";
+        String s2 = "John";
+
+        if(s1 == s2){
+            System.out.println("Equal");
+        }else{
+            System.out.println("Not Eqaul"); // this is going to print
         }
     }
 }
