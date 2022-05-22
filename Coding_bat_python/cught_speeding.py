@@ -7,6 +7,7 @@
 # If speed is between 61 and 80 inclusive, the result is 1. 
 # If speed is 81 or more, the result is 2.
 # Unless it is your birthday - - on that day, your speed can be 5 higher in all cases.
+
 def caught_speeding(speed, is_birthday):
     result = 0
     if speed <= 60 or speed <= 65 and is_birthday:
