@@ -2,6 +2,7 @@ public class Student extends Person{
 
     private int id;
     private String major;
+    
     public int getId() {
         return id;
     }
@@ -14,7 +15,5 @@ public class Student extends Person{
     public void setMajor(String major) {
         this.major = major;
     }
-
-    
 
 }
