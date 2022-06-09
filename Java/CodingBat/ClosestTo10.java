@@ -4,8 +4,12 @@ public class ClosestTo10 {
         
         ClosestTo10 test = new ClosestTo10();
     
-        int nums = test.close10(5, 14);
+        int nums = test.close10(7, 169);
+        int nums1 = test.close10(5, 5);
+        int nums2 = test.close10(15, 9);
         System.out.println(nums);
+        System.out.println(nums1);
+        System.out.println(nums2);
     }
 
     public int close10(int a, int b){
@@ -13,6 +17,8 @@ public class ClosestTo10 {
 
         if(Math.abs(10-a) < Math.abs(10-b)){
             result = a;
+        }else if(a == b){
+            result = 0;
         }else{
             result = b;
         }
