@@ -22,7 +22,6 @@ public class ClosestTo10 {
         }else{
             result = b;
         }
-
         return result;
     }
 }
