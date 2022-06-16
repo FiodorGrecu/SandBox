@@ -11,7 +11,7 @@ public class Car {
     }
 
     public void upgrade(){
-        System.out.println("MUsic Player.....");
+        System.out.println("Music Player.....");
     }
 
 }

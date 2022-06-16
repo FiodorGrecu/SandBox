@@ -8,10 +8,10 @@ public class Honda extends Car {
         System.out.println("$7000");
     }
 
-    @Override
-    public void color(){
-        System.out.println("Black...");
-    }
+    // @Override
+    // public void color(){
+    //     System.out.println("Black...");
+    // }
 
     @Override
     public void upgrade(){
