@@ -1,6 +1,6 @@
 public class Person {
     
     public void dysplay(){
-        System.out.println("Parent Class");
+        System.out.println("Parent Class...");
     }
 }

@@ -1,8 +1,8 @@
 public class Student  extends Person{
     
     @Override
-	static void display() {
-		System.out.println("Parent Class");
+	public void display() {
+		System.out.println("Parent Class...");
     }
 
 /**
