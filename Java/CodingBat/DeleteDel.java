@@ -5,8 +5,15 @@ public class DeleteDel {
         DeleteDel obj = new DeleteDel();
         String test = obj.delDel("adelbc");
         String test1 = obj.delDel("adel");
+     
         System.out.println(test);
         System.out.println(test1);
+
+
+        String newString = "Hgigieriuello";
+        String last3 = newString.substring(newString.length()-3);
+        System.out.println(last3);
+
 
     }
 
