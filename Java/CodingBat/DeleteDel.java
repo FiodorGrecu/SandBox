@@ -4,38 +4,22 @@ public class DeleteDel {
         
         DeleteDel obj = new DeleteDel();
         String test = obj.delDel("adelbc");
+        String test1 = obj.delDel("adel");
         System.out.println(test);
-
-        // String test1 = "adelbc";
-        // String newStr = test1.replaceAll("del","");
-        // System.out.println(newStr);
-
-
+        System.out.println(test1);
 
     }
 
     public String delDel(String str) {
         String result =  "";
-        String firstLetter = str.substring(0,1);
-        // System.out.println(firstLetter);
-        String restString = str.substring(4);
-        // System.out.println(restString);
-        
-        if(str.length() >= 1){
-          result = str;
-        }else if (str.length() >= 4){
-            if(str.contains("del")){
-                result = str.replaceAll("del", "");
-            }
-          
+        if(str.length() >= 4 && str.substring(1, 4).equals("del")){
+        result = str.replaceAll("del", "");
         }
         else{
           result = str;
         }
-        
         return result;
-      }
-       
+      }  
 }
 
 /**
