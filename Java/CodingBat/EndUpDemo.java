@@ -7,6 +7,8 @@ public class EndUpDemo {
         String test = obj.endUp("Hello"); 
         String test1 = obj.endUp("Ali");
 
+        System.out.println(test1.charAt(0));
+
         System.out.println(test);
         System.out.println(test1);
 
