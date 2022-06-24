@@ -1,9 +1,15 @@
 public class Practice {
     public static void main(String[] args) {
-        String name = "Dorel";
-        System.out.println(name);
-        String lastChar = name.substring(name.length() - 2);
-        System.out.println(lastChar);
+
+        int [] nums = {1,2,4,6};
+        int count = 0;
+        for (var n : nums) {
+            if(n%2 == 0){
+                count++;  
+            }
+            
+        }
+        System.out.println(count);
     }
    
     
