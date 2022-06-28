@@ -1,3 +1,5 @@
+import java.util.Collections;
+
 public class Practice {
     public static void main(String[] args) {
 
@@ -22,6 +24,8 @@ public class Practice {
 
         String n = "dorel";
         System.out.println(n + n + n);
+        // or
+        System.out.println(String.join("", Collections.nCopies(4, n)));
 
     }
 
