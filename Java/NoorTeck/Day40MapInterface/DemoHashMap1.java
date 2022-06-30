@@ -15,5 +15,33 @@ public class DemoHashMap1 {
 
         System.out.println(stateMap);
 
+        // Duplicate key
+        stateMap.put("VA ", " Alexandria");
+        stateMap.put("VA ", " Arlington");
+        System.out.println(stateMap);
+
+        // Duplicate Value
+        stateMap.put("CO ", " Colorado");
+        stateMap.put("MD ", " Maryland");
+        System.out.println(stateMap);
+
+        // null key --> we can only have one null KEY
+        stateMap.put(null, "Practice");
+        stateMap.put(null, " Day 40");
+        System.out.println(stateMap);
+
+        // null value --> we can only have one null KEY
+        stateMap.put("IL", null);
+        stateMap.put("HI", null);
+        System.out.println(stateMap);
+
+        // printing the size of the Object
+        System.out.println("Size of this Object is: " + stateMap.size() + " entries.");
+
+        // Capacity is not posible to check Because "capacity is not public method in
+        // Map Interface"
+        // System.out.println("Capacity of this Object is: " + stateMap.capacity() + "
+        // entries.");
+
     }
 }
