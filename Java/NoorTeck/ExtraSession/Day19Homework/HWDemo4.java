@@ -14,7 +14,7 @@ public class HWDemo4 {
         colors.add("Green");
         colors.add("Black");
         colors.add("Orange");
-        System.out.println("The full arrayList: " + colors);
+        System.out.println("The original ArrayList:" + colors);
 
         // 12. Write a Java program to extract a portion of a array list.
         // first we have to import list
@@ -22,5 +22,23 @@ public class HWDemo4 {
         List<String> subList = colors.subList(0, 4);
         System.out.println("List of the first four elements: " + subList);
 
+        // 13. Write a Java program to compare two array lists.
+        ArrayList<String> newColors = new ArrayList<String>();
+
+        newColors.add("Blue");
+        newColors.add("Gray");
+        newColors.add("Red");
+        newColors.add("Yellow");
+        newColors.add("Salmon");
+        newColors.add("Black");
+        newColors.add("Azure");
+
+        for (String color : newColors) {
+            if (colors.contains(color)) {
+                System.out.println("Yes");
+            } else {
+                System.out.println("No");
+            }
+        }
     }
 }
