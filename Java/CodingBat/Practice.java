@@ -3,6 +3,9 @@ import java.util.Collections;
 public class Practice {
     public static void main(String[] args) {
 
+        String early = "7".concat(" : ").concat("00");
+        System.out.println(early);
+
         // Simple counter program
 
         // int [] nums = {1,2,4,6};
