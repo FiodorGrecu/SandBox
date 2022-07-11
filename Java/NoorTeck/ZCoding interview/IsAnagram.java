@@ -10,9 +10,12 @@ public class IsAnagram {
 
     public static void main(String[] args) {
 
-        String str1 = "listen";
-        String str2 = "silent";
-        isAnagrams(str1, str2);
+        // String str1 = "listen";
+        // String str2 = "silent";
+
+        System.out.println(isAnagrams("civic", "vicci"));
+        System.out.println(isAnagrams("now", "won"));
+        System.out.println(isAnagrams("not", "won"));
     }
 
     // Step 1. Creating a method with boolean return type that takes 2 String
@@ -34,11 +37,33 @@ public class IsAnagram {
             // in the background they will be stored diferently and the values of
             // the 2 arrays is going to be different so will result to false.
 
-            Arrays.sort(arrWordA);
-            Arrays.sort(arrWordB);
-            System.out.println(arrWordA); // eilnst
-            System.out.println(arrWordB); // eilnst
-            System.out.println(arrWordA.equals(arrWordB));
+            // Arrays.sort(arrWordA);
+            // Arrays.sort(arrWordB);
+            // System.out.println(arrWordA); // eilnst
+            // System.out.println(arrWordB); // eilnst
+            // System.out.println(arrWordA.equals(arrWordB));
+
+            // Another Aproach would be to create two LIST OBJECTS and store the values of
+            // the Arrays
+            ArrayList<Character> listA = new ArrayList<>();
+            ArrayList<Character> listB = new ArrayList<>();
+
+            // Step 1. Iterate through each ArrayList and add values into lists
+            for (Character c : arrWordA) {
+                listA.add(c);
+            }
+            for (Character c : arrWordB) {
+                listB.add(c);
+            }
+            // Step 2. Use the builtInn Collections method to sort elements in the lists
+            Collections.sort(listA);
+            Collections.sort(listB);
+
+            // Step 3 Compare the 2 new lists of elements and if they are equal,
+            // return true;
+            if (listA.equals(listB)) {
+                result = true;
+            }
 
         }
 
