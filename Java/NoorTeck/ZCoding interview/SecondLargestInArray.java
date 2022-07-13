@@ -2,9 +2,12 @@ public class SecondLargestInArray {
 
     public static void main(String[] args) {
 
-        // int arr[] = { 10, 20, 30, 15, 16, 25 };
-        int arr[] = { 70, 20, 930, 185, 16, 25 };
+        int arr[] = { 10, 20, 30, 15, 16, 25 };
+        int arr1[] = { 70, 20, 930, 185, 16, 25 };
+        // int arr2[] = { 10, };
 
+        // System.out.println(secondLargest(arr2));
+        System.out.println(secondLargest(arr1));
         System.out.println(secondLargest(arr));
 
     }
