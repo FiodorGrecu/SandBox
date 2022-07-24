@@ -6,7 +6,7 @@ def smallest_positive_int(A):
     return last_in_sorted_A + 1
   else:
     #incomplete list, iterate to find the smallest missing number
-    sol=1
+    sol = 1
     for x in sorted_A:
         if x == sol:
           sol += 1
