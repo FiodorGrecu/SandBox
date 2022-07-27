@@ -8,8 +8,38 @@ public class Practice {
 
         System.out.println(myNumbers[4]);
 
+        Person obj = new Person();
+
+        Person obj1 = new Person("Michael", 10);
+
+        Person obj2 = new Person("Adam", 16, "DOAHDOUHDA34U");
+
         // }
 
     }
 
+}
+
+class Person {
+
+    String name;
+    int age;
+    String IBAN;
+
+    Person() {
+
+    }
+
+    Person(String name, int age) {
+
+        this.name = name;
+        this.age = age;
+
+    }
+
+    Person(String name, int age, String IBAN) {
+        this.name = name;
+        this.age = age;
+        this.IBAN = IBAN;
+    }
 }
