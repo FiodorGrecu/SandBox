@@ -13,27 +13,3 @@ public class Practice {
     }
 
 }
-
-class Person {
-
-    String name;
-    int age;
-    String IBAN;
-
-    Person() {
-
-    }
-
-    Person(String name, int age) {
-
-        this.name = name;
-        this.age = age;
-
-    }
-
-    Person(String name, int age, String IBAN) {
-        this.name = name;
-        this.age = age;
-        this.IBAN = IBAN;
-    }
-}
