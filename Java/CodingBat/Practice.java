@@ -12,19 +12,21 @@ public class Practice {
     public static int getInt(int num) {
 
         String number = String.valueOf(num);
+        // System.out.println(number);
+        // System.out.println(number);
 
-        // int countDigit = 0;
-        // if (num < 2) {
-        // return num;
-        // }
-        // while (num != 0) {
-        // num = num / 10;
-        // countDigit += 1;
+        int countDigit = 0;
+        if (num < 2) {
+            return num;
+        }
+        while (num != 0) {
+            num = num / 10;
+            countDigit += 1;
 
-        // }
-        // countDigit++;
+        }
+        countDigit++;
 
-        // return countDigit;
-        return number.length();
+        // return number.length();
+        return countDigit;
     }
 }
