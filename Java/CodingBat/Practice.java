@@ -1,32 +1,37 @@
-import java.util.Collections;
 
 public class Practice {
 
     public static void main(String[] args) {
 
-        int num = 1337;
-        System.out.println(getInt(num));
+        // int num = 1337;
+        // System.out.println(getInt(num));
+
+        String str = "ab";
+        String last = str.substring(str.length() - 1);
+        String first = str.substring(str.length() - 2, str.length() - 1);
+        System.out.println(last);
+        System.out.println(first);
 
     }
 
-    public static int getInt(int num) {
+    // public static int getInt(int num) {
 
-        String number = String.valueOf(num);
-        // System.out.println(number);
-        // System.out.println(number);
+    // String number = String.valueOf(num);
 
-        int countDigit = 0;
-        if (num < 2) {
-            return num;
-        }
-        while (num != 0) {
-            num = num / 10;
-            countDigit += 1;
+    // System.out.println(number); // this technically is the line 7
 
-        }
-        countDigit++;
+    // int countDigit = 0;
+    // if (num < 2) {
+    // return num;
+    // }
+    // while (num != 0) {
+    // num = num / 10;
+    // countDigit += 1;
 
-        // return number.length();
-        return countDigit;
-    }
+    // }
+    // countDigit++;
+
+    // // return number.length();
+    // return countDigit;
+    // }
 }
