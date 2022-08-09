@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Variables",
         "Strings",
+        "NoorTeck/ExtraSession/Day19Homework",
         "NoorTeck/Day9",
         "NoorTeck/Day8Homework",
         "NoorTeck/Day6",
@@ -16,6 +17,7 @@
         "NoorTeck/Day12",
         "NoorTeck/Day11",
         "NoorTeck/Day10",
-        "CodingBat"
+        "CodingBat",
+        "NoorTeck/ZCoding interview"
     ]
 }

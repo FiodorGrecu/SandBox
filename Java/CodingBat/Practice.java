@@ -1,10 +1,31 @@
+
 public class Practice {
+
     public static void main(String[] args) {
-        String name = "Dorel";
-        System.out.println(name);
-        String lastChar = name.substring(name.length() - 2);
-        System.out.println(lastChar);
+
+        // int num = 1337;
+        // System.out.println(getInt(num));
+
     }
-   
-    
+
+    // public static int getInt(int num) {
+
+    // String number = String.valueOf(num);
+
+    // System.out.println(number); // this technically is the line 7
+
+    // int countDigit = 0;
+    // if (num < 2) {
+    // return num;
+    // }
+    // while (num != 0) {
+    // num = num / 10;
+    // countDigit += 1;
+
+    // }
+    // countDigit++;
+
+    // // return number.length();
+    // return countDigit;
+    // }
 }
