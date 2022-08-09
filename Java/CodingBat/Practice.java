@@ -6,12 +6,6 @@ public class Practice {
         // int num = 1337;
         // System.out.println(getInt(num));
 
-        String str = "ab";
-        String last = str.substring(str.length() - 1);
-        String first = str.substring(str.length() - 2, str.length() - 1);
-        System.out.println(last);
-        System.out.println(first);
-
     }
 
     // public static int getInt(int num) {
