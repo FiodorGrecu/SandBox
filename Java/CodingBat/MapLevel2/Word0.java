@@ -1,6 +1,8 @@
+package MapLevel2;
+
 import java.util.*;
 
-public class MapPractice {
+public class Word0 {
 
     public static void main(String[] args) {
 
