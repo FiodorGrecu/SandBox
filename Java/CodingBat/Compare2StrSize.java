@@ -5,15 +5,17 @@ public class Compare2StrSize {
 
     public static void main(String[] args) {
 
-        boolean r1 = compare2Strings("Apple", null);
-        boolean r2 = compare2StringsV2("Apple", null);
+        // boolean r1 = compare2Strings("Apple", null);
+        // boolean r2 = compare2StringsV2("Apple", null);
         // boolean r3 = compare2StringsV2("Apple", "Apple");
+        boolean r4 = compare2StringsV4("Apple", null);
 
         String[] strings2 = { "Apple", "" };
 
-        System.out.println(r1);
-        System.out.println(r2);
+        // System.out.println(r1);
+        // System.out.println(r2);
         // System.out.println(r3);
+        System.out.println(r4);
 
         compare2StringsV3(strings2);
 
@@ -42,6 +44,16 @@ public class Compare2StrSize {
 
         System.out.println(map);
         return map;
+    }
+    // Method 4
+
+    public static boolean compare2StringsV4(String a, String b) {
+        boolean result = false;
+        if (a != null && b != null) {
+            a.compareTo(b);
+        }
+        System.out.println(result);
+        return result;
     }
 
 }
