@@ -1,6 +1,8 @@
 
 a = 1
-b = 0
+print('This is a: ', a)
+b = 2
+print('This is b: ', b)
 print("Before swaping: %d   %d\n" %(a,b))
 
 # swapping numbers
