@@ -14,7 +14,6 @@ public class DemoMavenVsCode {
 
         System.setProperty(key, path);
 
-        // WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
         driver.get(url);
