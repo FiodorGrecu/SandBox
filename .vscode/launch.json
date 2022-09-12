@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch GetDemo1",
             "request": "launch",
+            "mainClass": "asertion.GetDemo1",
+            "projectName": "asertion"
+        },
+        {
+            "type": "java",
+            "name": "Launch GetDemo1",
+            "request": "launch",
             "mainClass": "GetDemo1",
             "projectName": "asertion"
         },
