@@ -1,0 +1,452 @@
+12:49:21.618 karate.env value:  
+12:49:22.641 request:
+1 > POST http://jobportalkarate.herokuapp.com/secure/webapi/add
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 172
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"experience":["15 years"],"jobDescription":"API Developer","jobId":8888,"jobTitle":"Sr. SDET Developer","project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:22.903 response time in milliseconds: 260.46
+1 < 201
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:22 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"Sr. SDET Developer","jobDescription":"API Developer","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:22.905 [print] {
+  "jobId": 8888,
+  "jobTitle": "Sr. SDET Developer",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API Developer",
+  "experience": [
+    "15 years"
+  ]
+}
+
+12:49:22.923 karate.env value:  
+12:49:22.993 request:
+1 > POST http://jobportalkarate.herokuapp.com/secure/webapi/add
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 159
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"experience":["20 years"],"jobDescription":"Jr. QA Engineer","jobId":2020,"jobTitle":"Tester","project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:23.136 response time in milliseconds: 141.86
+1 < 201
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:22 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":2020,"jobTitle":"Tester","jobDescription":"Jr. QA Engineer","experience":["20 years"],"project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:23.136 [print] {
+  "jobId": 2020,
+  "jobTitle": "Tester",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "IQM"
+    }
+  ],
+  "jobDescription": "Jr. QA Engineer",
+  "experience": [
+    "20 years"
+  ]
+}
+
+12:49:23.146 karate.env value:  
+12:49:23.187 request:
+1 > GET http://jobportalkarate.herokuapp.com/secure/webapi/find?id=8888&jobTitle=Sr.+SDET+Developer
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+12:49:23.335 response time in milliseconds: 146.69
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:22 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"Sr. SDET Developer","jobDescription":"API Developer","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:23.336 [print] {
+  "jobId": 8888,
+  "jobTitle": "Sr. SDET Developer",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API Developer",
+  "experience": [
+    "15 years"
+  ]
+}
+
+12:49:23.346 karate.env value:  
+12:49:23.380 request:
+1 > GET http://jobportalkarate.herokuapp.com/secure/webapi/find?id=2020&jobTitle=Tester
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+12:49:23.541 response time in milliseconds: 156.93
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:22 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":2020,"jobTitle":"Tester","jobDescription":"Jr. QA Engineer","experience":["20 years"],"project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:23.541 [print] {
+  "jobId": 2020,
+  "jobTitle": "Tester",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "IQM"
+    }
+  ],
+  "jobDescription": "Jr. QA Engineer",
+  "experience": [
+    "20 years"
+  ]
+}
+
+12:49:23.550 karate.env value:  
+12:49:23.593 request:
+1 > PUT http://jobportalkarate.herokuapp.com/secure/webapi/update
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 172
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"experience":["15 years"],"jobDescription":"API Developer","jobId":8888,"jobTitle":"Sr. SDET Developer","project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:23.741 response time in milliseconds: 147.20
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:22 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"Sr. SDET Developer","jobDescription":"API Developer","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:23.742 [print] {
+  "jobId": 8888,
+  "jobTitle": "Sr. SDET Developer",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API Developer",
+  "experience": [
+    "15 years"
+  ]
+}
+
+12:49:23.751 karate.env value:  
+12:49:23.779 request:
+1 > PUT http://jobportalkarate.herokuapp.com/secure/webapi/update
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 159
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{"experience":["20 years"],"jobDescription":"Jr. QA Engineer","jobId":2020,"jobTitle":"Tester","project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:23.937 response time in milliseconds: 157.53
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:23 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":2020,"jobTitle":"Tester","jobDescription":"Jr. QA Engineer","experience":["20 years"],"project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:23.939 [print] {
+  "jobId": 2020,
+  "jobTitle": "Tester",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "IQM"
+    }
+  ],
+  "jobDescription": "Jr. QA Engineer",
+  "experience": [
+    "20 years"
+  ]
+}
+
+12:49:23.948 karate.env value:  
+12:49:23.983 request:
+1 > PATCH http://jobportalkarate.herokuapp.com/secure/webapi/update/details?id=8888&jobTitle=API+%26+UI+Java+Developer&jobDescription=API+%26+Back-End+Dev
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{}
+
+12:49:24.154 response time in milliseconds: 169.54
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:23 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"API & UI Java Developer","jobDescription":"API & Back-End Dev","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:24.155 [print] {
+  "jobId": 8888,
+  "jobTitle": "API & UI Java Developer",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API & Back-End Dev",
+  "experience": [
+    "15 years"
+  ]
+}
+
+12:49:24.173 karate.env value:  
+12:49:24.230 request:
+1 > PATCH http://jobportalkarate.herokuapp.com/secure/webapi/update/details?id=2020&jobTitle=API+Automation&jobDescription=Sr.+SDET
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Length: 2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+{}
+
+12:49:24.388 response time in milliseconds: 156.76
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:23 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":2020,"jobTitle":"API Automation","jobDescription":"Sr. SDET","experience":["20 years"],"project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:24.390 [print] {
+  "jobId": 2020,
+  "jobTitle": "API Automation",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "IQM"
+    }
+  ],
+  "jobDescription": "Sr. SDET",
+  "experience": [
+    "20 years"
+  ]
+}
+
+12:49:24.402 karate.env value:  
+12:49:24.418 request:
+1 > DELETE http://jobportalkarate.herokuapp.com/secure/webapi/remove//8888
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+12:49:24.559 response time in milliseconds: 140.02
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:23 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"API & UI Java Developer","jobDescription":"API & Back-End Dev","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["<technology>"]}]}
+
+12:49:24.559 [print] {
+  "jobId": 8888,
+  "jobTitle": "API & UI Java Developer",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API & Back-End Dev",
+  "experience": [
+    "15 years"
+  ]
+}
+
+12:49:24.565 karate.env value:  
+12:49:24.583 request:
+1 > DELETE http://jobportalkarate.herokuapp.com/secure/webapi/remove//2020
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 > Connection: Keep-Alive
+1 > Content-Type: application/json
+1 > Host: jobportalkarate.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_321)
+
+12:49:24.730 response time in milliseconds: 146.68
+1 < 200
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Mon, 19 Sep 2022 16:49:23 GMT
+1 < Expires: 0
+1 < Pragma: no-cache
+1 < Server: Cowboy
+1 < Transfer-Encoding: chunked
+1 < Via: 1.1 vegur
+1 < X-Content-Type-Options: nosniff
+1 < X-Frame-Options: DENY
+1 < X-Xss-Protection: 1; mode=block
+{"jobId":2020,"jobTitle":"API Automation","jobDescription":"Sr. SDET","experience":["20 years"],"project":[{"projectName":"IQM","technology":["<technology>"]}]}
+
+12:49:24.730 [print] {
+  "jobId": 2020,
+  "jobTitle": "API Automation",
+  "project": [
+    {
+      "technology": [
+        "<technology>"
+      ],
+      "projectName": "IQM"
+    }
+  ],
+  "jobDescription": "Sr. SDET",
+  "experience": [
+    "20 years"
+  ]
+}
+

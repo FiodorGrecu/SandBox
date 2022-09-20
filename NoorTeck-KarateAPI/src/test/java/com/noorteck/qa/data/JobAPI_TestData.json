@@ -1,0 +1,42 @@
+{
+	"requestBody": "classpath:com/noorteck/qa/data/JobAPI_RequestBody.json",
+	"Invalid_RBody": "classpath:com/noorteck/qa/data/JobAPI_InvalidRequestBody.json",	
+	"scrum": [
+		{
+			"experience": "15 years",
+			"jobDescription": "API Developer",
+			"jobId": 8888,
+			"jobTitle": "Sr. SDET Developer",
+			"projectName": "NTK-21",
+			"technology": ["C#","Postman","API"],
+			"upd_exp": "99 years",
+			"upd_jobDesc": "API & Back-End Dev",
+			"upd_jobTitle": "API & UI Java Developer",
+			"upd_prjoectName": "team9",
+			"upd_technology": [
+				"JavaScipt",
+				"Oracle",
+				"Rest"
+			]
+		}
+	],
+	"sit": [
+		{
+			"experience": "20 years",
+			"jobDescription": "Jr. QA Engineer",
+			"jobId": 2020,
+			"jobTitle": "Tester",
+			"projectName": "IQM",
+			"technology": ["Soap","Postman","API"],
+			"upd_exp": "35 years",
+			"upd_jobDesc": "Sr. SDET",
+			"upd_jobTitle": "API Automation",
+			"upd_prjoectName": "PAM",
+			"upd_technology": [
+				"C#",
+				"Pega",
+				"Jira"
+			]
+		}
+	]
+}

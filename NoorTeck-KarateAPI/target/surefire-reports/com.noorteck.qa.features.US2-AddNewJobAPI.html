@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>com.noorteck.qa.features.US2-AddNewJobAPI</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">1</div>
+            
+<div class="bg-danger" id="nav-fail">0</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2022-06-05 01:04:19 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1.1:34]">[1.1:34] Verify User able to Create new job description </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">com/noorteck/qa/features/US2-AddNewJobAPI.feature</span><span class="feature-description">SmokeTest for Job Portal Functionality</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1.1:34]">
+<div class="heading-container">
+<div class="scenario-tags">
+<a class="badge badge-primary" href="karate-tags.html">stage</a>
+</div>
+<span class="scenario-keyword">Scenario Outline: [1.1:34]</span><span class="scenario-name">Verify User able to Create new job description </span>
+</div>
+<div class="scenario-time passed">ms: 2662</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="[1.1:34]bg">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">Background:</div>
+</div>
+<div class="time-cell passed"></div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="1">
+<div class="step-ref bg-step">1</div>
+<div class="step-cell passed">* def data = read('classpath:com/noorteck/qa/data/JobAPI_TestData.json')</div>
+</div>
+<div class="time-cell passed">33</div>
+</div>
+<div class="preformatted" data-parent="1">13:04:16.374 karate.env value:</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="2">
+<div class="step-ref bg-step">2</div>
+<div class="step-cell passed">* def filename = env == 'scrum' ? 'classpath:com/noorteck/qa/helper/Headers.feature@valid-auth' : 'classpath:com/noorteck/qa/helper/Headers.feature@no-auth'</div>
+</div>
+<div class="time-cell passed">11</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="3">
+<div class="step-ref bg-step">3</div>
+<div class="step-cell passed">* def info = call read(filename)</div>
+</div>
+<div class="time-cell passed">114</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="3.1">
+<div class="step-ref bg-step">&gt;&gt;</div>
+<div class="step-cell passed">com/noorteck/qa/helper/Headers.feature</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="4">
+<div class="step-ref bg-step">4</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">* def auth = auth_valid</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="5">
+<div class="step-ref bg-step">5</div>
+<div class="step-indent"> 
+</div>
+<div class="step-cell passed">* def HEADER = {Content-Type: 'application/json', Accept: 'application/json', Authorization: '#(auth)'}</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="6">
+<div class="step-ref bg-step">6</div>
+<div class="step-cell passed">* def URL = baseUrl</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row" data-parent="[1.1:34]bg">
+<div class="step-container" id="7">
+<div class="step-ref bg-step">7</div>
+<div class="step-cell passed">* configure headers = info.HEADER</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">* def PATH = addAPI</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">* def REQUESTBODY = read(data.requestBody)</div>
+</div>
+<div class="time-cell passed">28</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">* set REQUESTBODY.experience[0] = data.scrum[0].experience</div>
+</div>
+<div class="time-cell passed">109</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref passed">11</div>
+<div class="step-cell passed">* set REQUESTBODY.jobDescription = data.scrum[0].jobDescription</div>
+</div>
+<div class="time-cell passed">25</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref passed">12</div>
+<div class="step-cell passed">* set REQUESTBODY.jobId = data.scrum[0].jobId</div>
+</div>
+<div class="time-cell passed">18</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref passed">13</div>
+<div class="step-cell passed">* set REQUESTBODY.jobTitle = data.scrum[0].jobTitle</div>
+</div>
+<div class="time-cell passed">41</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">* set REQUESTBODY.project[0].projectName = data.scrum[0].projectName</div>
+</div>
+<div class="time-cell passed">11</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">Given url URL</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">And path PATH</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">And request REQUESTBODY</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="18">
+<div class="step-ref passed">18</div>
+<div class="step-cell passed">When method POST</div>
+</div>
+<div class="time-cell passed">2243</div>
+</div>
+<div class="preformatted" data-parent="18">13:04:18.967 request:
+1 &gt; POST http://jobportalkarate.herokuapp.com/secure/webapi/add
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Basic YWRtaW46d2VsY29tZQ==
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 172
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: jobportalkarate.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_301)
+{"experience":["15 years"],"jobDescription":"API Developer","jobId":8888,"jobTitle":"Sr. SDET Developer","project":[{"projectName":"NTK-21","technology":["&lt;technology&gt;"]}]}
+
+13:04:19.225 response time in milliseconds: 254.88
+1 &lt; 201
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sun, 05 Jun 2022 17:04:17 GMT
+1 &lt; Expires: 0
+1 &lt; Pragma: no-cache
+1 &lt; Server: Cowboy
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: DENY
+1 &lt; X-Xss-Protection: 1; mode=block
+{"jobId":8888,"jobTitle":"Sr. SDET Developer","jobDescription":"API Developer","experience":["15 years"],"project":[{"projectName":"NTK-21","technology":["&lt;technology&gt;"]}]}</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">* print response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="19">13:04:19.228 [print] {
+  "jobId": 8888,
+  "jobTitle": "Sr. SDET Developer",
+  "project": [
+    {
+      "technology": [
+        "&lt;technology&gt;"
+      ],
+      "projectName": "NTK-21"
+    }
+  ],
+  "jobDescription": "API Developer",
+  "experience": [
+    "15 years"
+  ]
+}</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref passed">20</div>
+<div class="step-cell passed">Then status 201</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref passed">21</div>
+<div class="step-cell passed">And match response.jobId == data.scrum[0].jobId</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref passed">22</div>
+<div class="step-cell passed">And match response.jobTitle == data.scrum[0].jobTitle</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref passed">23</div>
+<div class="step-cell passed">And match response.jobDescription == data.scrum[0].jobDescription</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="24">
+<div class="step-ref passed">24</div>
+<div class="step-cell passed">And match response.project[0].projectName ==data.scrum[0].projectName</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="25">
+<div class="step-ref passed">25</div>
+<div class="step-cell passed">And match response.experience[0] == data.scrum[0].experience</div>
+</div>
+<div class="time-cell passed">2</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
