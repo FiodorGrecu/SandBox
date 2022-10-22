@@ -1,3 +1,4 @@
+
 public class MiddleTwo {
     public static void main(String[] args) {
         // test case 1
@@ -18,13 +19,16 @@ public class MiddleTwo {
         String r3 = middleTwo(str3);
         System.out.println(r3);
 
+        String str4 = "lava";
+
+        String s4 = middleTwoSimpleVersion(str4);
+        System.out.println(s4);
+
     }
 
     public static String middleTwo(String str) {
         String result = "";
-        if (str.length() == 2) {
-            return str;
-        }
+
         int len = str.length();
         // keeping track of the half
         int fHalf = len / 2;
@@ -43,6 +47,13 @@ public class MiddleTwo {
         result = lastLtrOfFirstHalf + firstLtrOfSecondHalf;
 
         return result;
+    }
+
+    public static String middleTwoSimpleVersion(String str) {
+
+        int half = str.length() / 2;
+        return str.substring(half - 1, half + 1);
+
     }
 
 }
