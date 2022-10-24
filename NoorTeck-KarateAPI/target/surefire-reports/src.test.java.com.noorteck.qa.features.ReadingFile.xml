@@ -1,9 +1,0 @@
-<testsuite failures="0" name="src/test/java/com/noorteck/qa/features/ReadingFile.feature" skipped="0" tests="1" time="0.027282">
-  <testcase classname="src.test.java.com.noorteck.qa.features.ReadingFile" name="1" time="0.027282">
-    <system-out>* def data = read('classpath:com/noorteck/qa/data/JobAPI_TestData.json') .. passed
-* print data .............................................................. passed
-* print data.requestBody .................................................. passed
-* def REQUESTBODY = read(data.requestBody) ................................ passed
-* def rb = read('classpath:com/noorteck/qa/data/JobAPI_RequestBody.json') . passed</system-out>
-  </testcase>
-</testsuite>

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MiddleTwo",
+            "request": "launch",
+            "mainClass": "MiddleTwo",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch GetResponseDemo",
+            "request": "launch",
+            "mainClass": "GetResponseDemo",
+            "projectName": "asertion"
+        },
+        {
+            "type": "java",
             "name": "Launch GetDemo1",
             "request": "launch",
             "mainClass": "asertion.GetDemo1",

@@ -7,6 +7,12 @@ public class Practice {
 
     public static void main(String[] args) {
 
+        String str = "Dorel is the best";
+        String is = str.substring(6, 9);
+        System.out.println(str);
+
+        System.out.println(str.indexOf(is));
+
         // System.out.println(intSet);
         // int num = 1337;
         // System.out.println(getInt(num));
