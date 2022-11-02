@@ -11,7 +11,7 @@ public class Practice {
         String is = str.substring(6, 9);
         System.out.println(str);
 
-        System.out.println(str.indexOf(is));
+        System.out.println(is);
 
         // System.out.println(intSet);
         // int num = 1337;
