@@ -14,13 +14,13 @@ class LinkedList:
     
     def print(self):
         if self.head:
-            print("My list is empty")
+            self.print("My list is empty")
         itr = self.head
         llstr = ''
         while itr:
             llstr += str(itr.data) + ' --> '
             itr = itr.next
-        print(llstr)
+        self.print(llstr)
 
 if __name__ == '__main__':
     ll = LinkedList()
